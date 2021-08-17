@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button, TextInput, FlatList, Alert, TouchableWithoutFeedback, Keyboard, Touchable } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput, FlatList, Alert, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import Header from './components/header';
 import TodoItem from './components/TodoItem';
 import AddTodo from './components/addTodo';
@@ -64,10 +64,12 @@ const styles = StyleSheet.create({
   },
 
   content: {
+    flex: 1,
     padding: 40,
   },
 
   list: {
+    flex: 1,
     marginTop: 20,
   }
 });
